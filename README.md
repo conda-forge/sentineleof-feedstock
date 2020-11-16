@@ -5,9 +5,11 @@ Home: https://github.com/scottstanie/sentineleof
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sentineleof-feedstock/blob/master/LICENSE.txt)
 
 Summary: Precise orbit file download for Sentinel 1
+
+Development: https://github.com/scottstanie/sentineleof
 
 Tool to download Sentinel 1 precise/restituted orbit files (.EOF files)
 for processing SLCs
