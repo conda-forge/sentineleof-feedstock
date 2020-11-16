@@ -1,5 +1,5 @@
 {% set name = "sentineleof" %}
-{% set version = "0.4.2" %}
+{% set version = "0.4.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7761556af99693e70abe56f2743be88d1c40e04fd7944efac4e41851ccf33c4a
+  sha256: 24186c7b9690abad6382388adc90a2512b219b852f40ab164641ee9122441ace
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - eof = eof.cli:cli
 
@@ -41,7 +41,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
-  summary: 'Precise orbit file download for Sentinel 1'
+  summary: Precise orbit file download for Sentinel 1
   description: |
     Tool to download Sentinel 1 precise/restituted orbit files (.EOF files)
     for processing SLCs
