@@ -25,6 +25,7 @@ requirements:
     - requests
     - python-dateutil
     - click
+    - sentinelsat
 
 test:
   imports:
