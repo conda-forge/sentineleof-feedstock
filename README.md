@@ -1,11 +1,11 @@
-About sentineleof
-=================
+About sentineleof-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sentineleof-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/scottstanie/sentineleof
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sentineleof-feedstock/blob/main/LICENSE.txt)
 
 Summary: Precise orbit file download for Sentinel 1
 
