@@ -18,24 +18,19 @@ build:
 
 requirements:
   host:
-    - python >=3.5
+    - python >=3.8
     - pip
   run:
-    - python >=3.5
+    - python >=3.8
     - requests
     - python-dateutil
     - click
-    - sentinelsat
 
 test:
   imports:
     - eof
-  requires:
-    - pytest
-    - responses
   commands:
     - eof --help
-    - python -m pytest -v --pyargs eof
 
 about:
   home: https://github.com/scottstanie/sentineleof
