@@ -1,5 +1,5 @@
 {% set name = "sentineleof" %}
-{% set version = "0.9.0" %}
+{% set version = "0.9.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3c7e8a2f2f82145acc0dad3303c424d22bdaa3ccf5a727677dee09c3eef88064
+  sha256: 27d310e60e0b9dfc5306a8247d3fd8ed12571f03d5fa9d76c29fb6ba95f514c6
 
 build:
   noarch: python
