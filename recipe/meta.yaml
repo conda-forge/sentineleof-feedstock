@@ -1,13 +1,13 @@
 {% set name = "sentineleof" %}
-{% set version = "0.13.0" %}
+{% set version = "0.13.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8c498c175a8ee2ac3c42a9972a66c8f77bfde5cde9d26a846538dd41b6be7400
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: ead542f4c0787dde5919f6ff48ea7e6b8412f89dae52251689f5f6fca3e3fac3
 
 build:
   noarch: python
